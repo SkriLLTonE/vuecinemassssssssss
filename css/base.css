@@ -32,3 +32,24 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
+
+.btn {
+    outline: none;
+    border: none;
+    width: 166px;
+    height: 46px;
+    background: var(--lightor);
+    color: var(--black);
+    font-family: var(--RM);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: var(--bg);
+    color: var(--white);
+    font-size: 16px;
+}
